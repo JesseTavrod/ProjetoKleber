@@ -1,16 +1,10 @@
 <?php 
-
+//Conecção com o banco de dados
 $host = "localhost";
 $user = "root";
-$senha = "";
+$senha_conexao = "";
 $database = "db_clinica";
 
-$conexao = mysqli_connect($host,$user,$senha,$database);
-
-// if($conexao->connect_error){
-//    echo "Desconectado! Erro: " . $conexao->connect_error;
-// }else{
-//    echo "Conectado!";
-// }
+$conexao = mysqli_connect($host,$user,$senha_conexao,$database);
 
 ?>
