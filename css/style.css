@@ -1,0 +1,218 @@
+/*Css Jessé*/
+body{
+	margin: 0px;
+}
+
+/* */
+
+.menu-topo h1 a{
+  color: #47525e;
+}
+
+/* cadastro*/
+.formulario-login{margin: auto;margin-top: 100px; border-radius: 10px;  opacity:[0.3]; font-size: 18px; font-family: sans-serif; 
+	padding: 15px}
+
+.fundo-login{background:#f8f8ff;}
+
+.fundo-cadastro{background:#f8f8ff;}
+
+.formulario-cadastro{ width: 100%; background-image;background:#f8f8ff; font-size: 18px; font-family: sans-serif; 
+	padding: 20px 30px;}
+
+
+.formulario-cadastro ul {text-align: center;  margin: auto; width: 100%;
+    text-align: center; }
+
+.formulario-cadastro ul li{text-align: center; padding: 0px; border: 1px solid darkslateGray;   }
+
+ul .nav-link{ color: black; border-radius: 0px!important; background:ghostwhite;}
+
+ul .nav-link.active{ background: darkslategray!important; }
+
+.titulo-form{text-align: center;transform: translateX(75%);  font-size: 30px;  font-weight: bold;  text-transform: uppercase; width: 40%; border-radius: 10px;flex-wrap: wrap;
+    margin: 0px 0px 20px 0px;color: darkslateGray!important; font-family: cursive;}
+
+.modal-header{ padding: 5px 19px; background: white; }
+
+.form-group{color: darkslategray!important;font-size: 19px; margin-bottom: 10px;}
+.titulo-form{text-align:center;}
+
+form label{margin: 0px;}
+
+form a{ text-decoration: none; color: darkslateGray!important; border-radius: 10px; font-size: 16px; margin: 5px 0px; font-weight: bold;cursor: pointer!important;}
+
+form a:hover{ text-decoration: underline!important; color: red;}
+
+.div-form{ margin: 10px 0px; }
+
+.btn-formulario{text-align: center;border solid darkslateGray;}
+
+.btn-cadastro{	padding: 7px 15px; font-size: 18px; border-radius: 3px;border: none;
+text-transform: uppercase; font-weight: bold;	cursor: pointer;} 
+
+.btn-login{	padding: 7px 15px; font-size: 18px; border-radius : 10px;border: none; background: darkslateGray; color: white;
+ 	text-transform: uppercase; font-weight: bold; cursor: pointer;  margin-top: 10px;}
+.btn-recuperacao {padding: 3px 7px; font-size: 18px; border-radius: 3px;border: none;
+ 	text-transform: uppercase; font-weight: bold; cursor: pointer;  margin-top: 10px;  }
+
+.btn-formulario button:hover{background: gray;border-radius: 10px;  color: white;}
+
+/*  login */
+
+/*reset de row e col*/
+.row{ margin-right: 0px; 
+	  margin-left: 0px;
+}
+.col-1 , .col-2 , .col-3 , .col-4, .col-5 , .col-6 , .col-7 , .col-8 , .col-9 , .col-10 ,  .col-11 , .col-12{ padding: 0px; }
+/*reset de row e col*/
+
+.menu-escondido{transition: 2s; display: none; }
+.menu-mostrando{transition: 2s; display: block; }
+/*estilo Lado Navi do lado esquerdo*/
+.sideleft{ border-right: 1px solid #dfe6ed ; }
+.nav-login { padding: 20px; }
+.nav-login ul li a { display: block; padding: 5px; border-radius: 5px; text-align: center;
+    background: #8190a5; margin: 5px 0px; text-decoration: none; color: white; }
+.title-nav{ border-top: 1px solid #dfe6ed ; color: #5c6671; font-weight: 500; font-size: 18px; }
+ul{ padding: 0px;}
+.title-nav:last-child{	border-bottom: 1px solid #dfe6ed ;}
+ul li{ list-style: none;}
+.menu-escondido { }
+.menu-escondido ul li a{ color: #616263;  font-size: 16px; font-family: sans-serif; font-weight: 500;}
+
+.menu-escondido ul li {   padding: 5px 10px 3px 20px;  background: #dfe6ed; }
+.menu-escondido ul li:first-child{ padding-top:10px; }
+.menu-escondido ul li:last-child{ padding-bottom:10px; }
+/* FIM  estilo Lado Navi do lado esquerdo*/
+
+/*Div TOPO - LOGO / ENTRAR EM CONTATO*/
+.menu-topo{width: 100%;	 padding: 15px 0px; border-bottom: 1px solid #dfe6ed ;}
+.menu-topo h1{text-align: center; font-size: 1.1em; color: #5c6671;}
+.btn-contato a{ float: right; background: #4a5561; padding: 5px 10px; border-radius: 5px; color: white; margin-top: -30px; margin-right: 10px;}
+.btn-contato a:hover{ text-decoration: none; }
+/*Div TOPO - LOGO / ENTRAR EM CONTATO*/
+
+/*.menu-escondido{ display: none; }*/
+.mensagem_cadastro{ color: green; text-align: center; }
+.sessao_name{    margin-right: 20px;
+    display: block;
+    text-align: right;
+    color: red;
+
+    margin-top: 10px;}
+main{ width: 100%; height: calc(100vh - 92px);  position: relative}
+
+main div.loading{overflow: hidden;
+    width: 100%;
+    height: calc(100% - 70px);
+    position: relative;
+  }
+main .carrosel-medico{position:relative;}
+main .carrosel-medico-conteudo{position:absolute; display: flex; width: 900px;}
+
+main .paginacao-medico{ text-align: center; margin-top: 15px; padding-top: 15px ; border-top: 1px solid #dfe6ed}
+main .paginacao-medico span{ margin: 20px; font-size: 20px; font-weight:bold; cursor: pointer;}
+main div.loading .item{ padding: 15px; float: left; text-align: center;}
+main div.loading .item h2{ margin: 10px 0px; font-size: 1.7rem; color: #47525e; font-weight: 500;}
+main div.loading .item p{ color: #a4afbe; font-size: 16px; font-family: sans-serif; font-weight: 500; margin: 20px 0px; }
+main div.loading .item .buton{ margin-top: 20px; }
+main div.loading .item .buton a{color: #47525e;  padding: 7px 32px;  border-radius: 8px;  border: 3px solid #47525e;}
+main div.loading .item .buton a:hover{ text-decoration: none; background: #47525e; color: white }
+div.loading .imagem{ height: 224px; width: 204px; margin: auto; border: 2px solid #4a5561;}
+section.sobre .sobre-principal{background:#F5DEB3;  width: 100%; display: flex; align-items: center;
+  justify-content: center; position: relative; font-family: cursive; text-align: center}
+section.sobre .sobre-principal h1{ margin-top: 31px; font-style: italic; font-family: cursive; font-weight: 1000;
+    color: #4a5561;  font-size: 4.5em;}
+section.sobre .sobre-principal h2{margin: 20px 0px;  font-size: 2.2em;}
+section.sobre .sobre-principal p{ margin: 20px 0px;  color: #4a5561; font-weight: 700; font-size: 20px;}
+
+/* Conteúdo Transtornos/medicos*/
+.cont-transtornos{ overflow:  auto; height: calc(100vh - 60px); padding: 0px 30px; text-align:  justify; color: #4a5561;}
+.cont-transtornos h1{ text-align:  center; font-size:  2em; margin-bottom: 20px; }
+.cont-transtornos h2{ font-size:  1.5em; margin-top:  15px; font-weight:  bold; }
+.cont-transtornos h2 span{ font-size:  13px; margin-top:  15px; font-weight:  bold; margin-left: 7px;}
+.cont-transtornos p{margin: 3px 0px;}
+.cont-transtornos ul li{ padding-left: 15px;}
+.cont-transtornos ul li a{ color: #4a5561; font-weight: bold;  }
+
+.cont-transtornos ul li a:hover{ text-decoration:none; color: #3F51B5;  }
+.procurar-medico{ position: fixed; bottom: 20px; right: 30px; z-index: 100;}
+.procurar-medico a{ background: #e41e1e; padding: 5px 10px; border-radius: 5px; color:  white; font-size: 0.8em; font-weight:  bold; }
+.procurar-medico a:hover{text-decoration:  none;}
+.medico-encontrado{
+  background:#F5DEB3;
+      font-size: 25px;
+    color: #4a5561;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: calc(100vh - 60px);
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.medico-encontrado .div-medico{ text-align: center;
+  width: 500px;
+}
+
+/* Alterar dados*/
+
+.box-quiz{
+    height: 100%;
+    width: 100%;
+    padding: 20px 50px 0px 30px;
+    overflow: auto;
+}
+.box-imagem{
+  width: 160px;
+  position: relative;
+  text-align: center;
+  background: #8190a5;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+
+.text-imagem{
+  font-size: 12px;
+  color: red;
+  font-style: italic;
+}
+.box-imagem input{
+    position: absolute;
+    left: -154px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.div-seila{ margin-top: -70px; margin-left: 20px; }
+
+
+.formulario-contato .btn{
+  background: #4a5561;
+  color: white;
+  padding: 5px 40px;
+  font-weight: bold;
+}
+.formulario-contato .btn:hover{
+  color: white;
+  background: green;
+}
+.formulario-contato .btn{
+  background: #4a5561;
+  color: white;
+  padding: 5px 40px;
+  font-weight: bold;
+}
+.formulario-contato .btn:hover{
+  color: white;
+  background: green;
+}
+main.medicos{
+  overflow: auto;
+  width: 100%; height: calc(100vh - 60px);  position: relative
+}
